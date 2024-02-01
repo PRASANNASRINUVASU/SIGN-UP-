@@ -1,0 +1,106 @@
+body{
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sigin-up{
+width: 360px;
+height: 620px;
+margin: auto;
+background-color: aliceblue;
+border-radius: 3px;
+}
+.login{
+
+    width: 360px;
+    height: 270px;
+    margin: auto;
+    border-radius: 3px;
+    
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    padding-top:15px ;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: flex;
+    margin-left: 20px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border:none;
+    border:1px solid gold;
+    border-radius: 6px;
+    outline: none;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+}input[type=submit]{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #764776;
+    border:none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size:15px;
+}
+.para{
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.para a{
+    color: cadetblue;
+
+}
+
+.main{
+    
+    padding: 20px;
+    font-family: Arial;
+    box-shadow: 5px  5px 7px 5px #8888;
+}
+
+.main h1{
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial;
+
+}
+
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 15px;
+    border: none;
+    border-bottom: 2px solid #764776;
+
+}
+
+input[type=submit]{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #764776;
+    border:none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+
+}

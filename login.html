@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+   <link ref="stylesheet" href="./style.css">
+</head>
+<style>
+    body{
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login{
+
+    width: 360px;
+    height: 270px;
+    margin: auto;
+    border-radius: 3px;
+    
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    padding-top:15px ;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: flex;
+    margin-left: 20px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border:none;
+    border:1px solid gold;
+    border-radius: 6px;
+    outline: none;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+}input[type=submit]{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #764776;
+    border:none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size:15px;
+}
+.para{
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.para a{
+    color: cadetblue;
+
+}
+
+</style>
+<body>
+    <div class="login">
+        <h1>Login</h1>
+        <form>
+            <label>Email</label>
+            <input type="email">
+            <label>Password</label>
+            <input type="password">
+            <input type="button" value="Submit">    
+        </form>
+    </div>
+    <p style="color: black;" class="para">Not have an account?<a href="index.html">Sign Up Here</a></p>
+</body>
+</html>
